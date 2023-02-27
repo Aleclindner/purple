@@ -11,6 +11,6 @@ public class DesktopLauncher {
 		config.setWindowedMode(800, 480);
 		config.useVsync(true);
 		config.setTitle("Pokémon Purple");
-		new Lwjgl3Application(new Drop(), config);
+		new Lwjgl3Application(new DropGame(), config);
 	}
 }
